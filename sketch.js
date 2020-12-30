@@ -11,7 +11,7 @@ function setup() {
   deformation = 0.5*weight*speed*speed/22500;
 
   car=createSprite(50,200,50,50);
-  car.velocityX = speed/8;
+  car.velocityX = speed;
   wall=createSprite(1500,200,60,height/2);
   wall.shapeColor = 0;
 
